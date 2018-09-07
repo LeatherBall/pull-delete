@@ -1,0 +1,27 @@
+.pull_delete {
+    position: relative;
+    width: calc(100% + 2.5rem) !important;
+}
+
+.pull_delete.trans {
+    transition: all 0.4s;
+}
+
+.pull_delete .pd_btn {
+    display: block !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    width: 2.5rem !important;
+    font-size: 0.4rem !important;
+    background: #ff411c !important;
+    color: #ffffff !important;
+    text-align: center !important;
+}
+
+.pull_delete .pd_btn::before {
+    content: 'DELETE';
+    font-style: normal !important;
+    font-size: 0.4rem !important;
+}
